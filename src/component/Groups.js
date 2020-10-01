@@ -39,15 +39,14 @@ const GroupsWrapper = styled.div`
   }
   .groups {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
     margin: 0 20px;
     @media (max-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
     }
-    @media (max-width: 375px) {
+    @media (max-width:500px) {
       grid-template-columns: repeat(1, 1fr);
-      margin: 0 100px;
     }
     .group {
       height: 450px;

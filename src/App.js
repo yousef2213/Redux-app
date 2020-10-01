@@ -6,7 +6,7 @@ import Footer from './component/Footer.js'
 
 function App(props) {
   return (
-    <div className="app">
+    <div className="app container px-0">
         <Navbar />
         <Groups />
         <Footer />

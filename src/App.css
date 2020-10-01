@@ -1,6 +1,6 @@
-.app{
-  width: 1000px;
+.app {
+  /* width: 1000px;
   margin: 0 auto;
-  overflow: hidden;
-  background-image: linear-gradient(to right,#e10481, #4593d4);
+  overflow: hidden; */
+  background-image: linear-gradient(to right, #e10481, #4593d4);
 }

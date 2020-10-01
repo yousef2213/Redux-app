@@ -5,7 +5,7 @@ import Logo from '../Images/MEGAKHEIR-Logo 1.svg';
 function Navbar() {
     return (
         <NavbarWrapper>
-           <img src={Vector} alt='' />
+           <img src = {Vector} className = "vectoe" alt = '' />
            <div className="logo">
                 <img src={Logo} alt='' />
            </div>
@@ -18,8 +18,11 @@ export default Navbar
 const NavbarWrapper = styled.div`
     display: flex;
     background-color: #fff;
-    padding: 25px;
+    padding: 35px;
     .logo{
         margin: auto;
+    }
+    .vectoe{
+        padding-left:20px
     }
 `;
