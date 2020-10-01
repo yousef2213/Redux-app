@@ -11,7 +11,7 @@ function Groups({ data }) {
             <div key={pkID} className="group">
               <img src={Logo} className="img-logo" alt="" />
               <h4 className="name">{Name}</h4>
-              <button className="btn">تبرع الان</button>
+              <button className="btn mt-5">تبرع الان</button>
             </div>
           );
         })}

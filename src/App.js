@@ -4,7 +4,7 @@ import Navbar from './component/Navbar.js'
 import Groups from './component/Groups.js'
 import Footer from './component/Footer.js'
 
-function App(props) {
+function App() {
   return (
     <div className="app container px-0">
         <Navbar />
