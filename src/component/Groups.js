@@ -2,7 +2,6 @@ import React from 'react';
 import {connect} from 'react-redux';
 import styled from 'styled-components'
 function Groups({data}) {
-  console.log(data);
     return (
         <GroupsWrapper>
           <h4 className="namegroups">الجمعيات الخيرية</h4>
